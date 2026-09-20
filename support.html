@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Easy Caddie support</title>
+  <style>
+    :root {
+      --bg: #f5f8f3;
+      --ink: #12231a;
+      --muted: #5a6a5f;
+      --green: #1b5e3b;
+      --line: #cbd8ce;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101a14;
+        --ink: #e6efe8;
+        --muted: #9fb0a4;
+        --green: #7fcf9f;
+        --line: #2a3a30;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      padding: 2rem 1.25rem 4rem;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+    main { max-width: 38rem; margin: 0 auto; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; color: var(--green); }
+    h2 { font-size: 1.25rem; margin: 2.25rem 0 0.5rem; }
+    h3 { font-size: 1.05rem; margin: 1.5rem 0 0.25rem; }
+    p { margin: 0 0 1rem; }
+    a { color: var(--green); }
+    .lead { color: var(--muted); font-size: 1.1rem; }
+    .contact {
+      border-left: 4px solid var(--green);
+      padding: 0.25rem 0 0.25rem 1rem;
+      margin: 1.5rem 0 0;
+    }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Easy Caddie support</h1>
+    <p class="lead">
+      Help with Easy Caddie, the app that picks your golf club from the distance to your target.
+    </p>
+
+    <div class="contact">
+      <p>
+        <strong>Need a hand, found a bug, or have an idea?</strong><br>
+        Email cynosural.publishing@gmail.com. It helps to mention your iPhone model and what you
+        were doing when the problem happened. I'll get back to you as soon as I can.
+      </p>
+    </div>
+
+    <h2>Common questions</h2>
+
+    <h3>How do I enter my own club distances?</h3>
+    <p>
+      Open the My clubs tab. Tap a club's carry or roll box and type your average
+      distance. You can rename clubs, add new ones, or remove clubs you don't carry.
+      Changes save automatically.
+    </p>
+
+    <h3>The app starts with numbers I didn't enter. Why?</h3>
+    <p>
+      The first time you open the app, it fills in sample distances so you can try it
+      right away. Replace them with your own numbers on the My clubs tab.
+    </p>
+
+    <h3>How do I switch between yards and meters?</h3>
+    <p>
+      Use the yd / m switch at the top right of the screen. Your clubs and your target
+      distance convert automatically, and the app remembers your choice.
+    </p>
+
+    <h3>What's the difference between matching carry and matching carry + roll?</h3>
+    <p>
+      Match carry finds the club whose carry lands closest to your target. Match carry
+      + roll finds the club whose carry plus roll out finishes closest to your target.
+      The app shows your two closest clubs so you can adjust for wind, elevation, or lie.
+    </p>
+
+    <h3>The suggested club doesn't seem right.</h3>
+    <p>
+      The app uses the numbers you enter, so check the carry and roll values for the
+      clubs involved. Averages from real shots work best.
+    </p>
+
+    <h3>Did I lose my clubs?</h3>
+    <p>
+      Your clubs are stored on your phone only. They stay there until you delete the app
+      or use Reset to sample values on the My clubs tab. Because nothing is stored online,
+      they can't be recovered after deleting the app.
+    </p>
+
+    <h3>What information does the app collect?</h3>
+    <p>
+      None. See the <a href="privacy-policy.html">privacy policy</a> for details.
+    </p>
+
+    <footer>Easy Caddie</footer>
+  </main>
+</body>
+</html>
